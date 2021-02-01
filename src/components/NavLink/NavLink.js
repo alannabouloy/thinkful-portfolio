@@ -4,7 +4,7 @@ import './NavLink.css'
 
 export default function NavLink(props){
     return (
-        <li className={props.className}>
+        <li id={props.id}>
             <Link to={props.link}>
                 {props.page}
             </Link>

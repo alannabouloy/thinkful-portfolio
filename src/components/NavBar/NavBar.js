@@ -7,7 +7,7 @@ export default function NavBar(props){
         return(
             <nav className={props.className}>
                 <ul>
-                    <NavLink className='active' link='/' page='About'/>
+                    <NavLink id='active' link='/' page='About'/>
                     <NavLink link='/projects' page='Projects'/>
                 </ul>
             </nav>
@@ -18,7 +18,7 @@ export default function NavBar(props){
             <nav className={props.className}>
                 <ul>
                     <NavLink link='/' page='About'/>
-                    <NavLink className='active' link='/projects' page='Projects'/>
+                    <NavLink id='active' link='/projects' page='Projects'/>
                 </ul>
             </nav>
         )

@@ -1,0 +1,10 @@
+.heading {
+    background-color:  #2D0320;
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 100%;
+    font-family: 'Blastimo', Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: solid  #392B58 8px;
+}
+

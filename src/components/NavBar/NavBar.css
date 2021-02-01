@@ -1,0 +1,21 @@
+.about-nav ul, .projects-nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.about-nav li, .projects-nav li {
+    list-style: none;
+    background-color: #ffffff;
+    margin: -38px 5px 10px 5px;
+    padding: 8px 10px 7px 10px;
+    border: solid  #392B58 5px;
+    border-bottom: none;
+    border-radius: 5px;
+}
+
+#active {
+    background-color: #392B58;
+}
