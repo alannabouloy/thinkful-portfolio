@@ -26,28 +26,32 @@ export default function AboutSection(props){
 
             <div className='experience'>
                 <SmallHeading heading='Experience'/>
-                <p>
-                    I started coding in college while freelancing with a local marketing agency managing websites
-                    for clients and learning basic HTML and CSS. While enrolled in Thinkful's Software Engineering
-                    Immersion Program, I worked on several independent full stack development projects using Node.js 
-                    and React as my main frameworks. I have experience building out RESTful APIs using services and test
-                    driven development, as well as building relational databases using PostgreSQL. I'm also proficient in 
-                    HTML and CSS.
-                </p>
+                <div className='experience-txt'>
+                    <p>
+                        I started coding in college while freelancing with a local marketing agency managing websites
+                        for clients and learning basic HTML and CSS. While enrolled in Thinkful's Software Engineering
+                        Immersion Program, I worked on several independent full stack development projects using Node.js 
+                        and React as my main frameworks. I have experience building out RESTful APIs using services and test
+                        driven development, as well as building relational databases using PostgreSQL. I'm also proficient in 
+                        HTML and CSS.
+                    </p>
+                </div>
             </div>
 
             <div className='languages'>
                 <SmallHeading heading='Languages'/>
-                <p>
-                    I'm most comfortable working in JavaScript, but I also have experience with the following languages:
-                </p>
-                <ul>
-                    <li>Java</li>
-                    <li>Python</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Spanish</li>
-                </ul>
+                <div className='languages-txt'>
+                    <p>
+                        I'm most comfortable working in JavaScript, but I also have experience with the following languages:
+                    </p>
+                    <ul>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Spanish</li>
+                    </ul>
+                </div>
             </div>
         </section>
     )

@@ -3,7 +3,7 @@ import './ContactLinks.css'
 
 export default function ContactLinks(props){
     return(
-        <div className='links'>
+        <div className='contact-links'>
             <h3>Here are more linkes where you can reach me:</h3>
             <div className='link-list'>
                 <ul className='links'>

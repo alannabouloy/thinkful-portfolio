@@ -1,0 +1,22 @@
+.label, .input {
+    text-align: center;
+    margin: 5px;
+}
+
+.input input {
+    width: 80%;
+}
+
+.input textarea {
+    width: 80%;
+    height: 25vh;
+}
+
+.contact-msg {
+    width: 70%;
+    margin: auto;
+}
+
+.submit {
+    text-align: center;
+}

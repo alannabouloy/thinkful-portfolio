@@ -1,0 +1,22 @@
+.contact-links {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.contact-links h3 {
+    text-align: center;
+}
+
+.links {
+    width: 20%;
+    margin: auto;
+    padding: 0px;
+}
+
+.contact-links a {
+    color: #7392ac;
+}
+
+.contact-links a:visited, .contact-links a:hover {
+    color: #645E9D;
+}

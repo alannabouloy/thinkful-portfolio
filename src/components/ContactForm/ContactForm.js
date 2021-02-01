@@ -35,7 +35,7 @@ export default function ContactForm(props){
                     <label htmlFor='message'>Message:</label>
                 </div>
                 <div className='input align-left'>
-                    <textarea id='message' name='message'></textarea>
+                    <textarea id='message' name='message' required></textarea>
                 </div>
                 <div class='submit align-left'>
                     <button type='submit'>Send Email</button>

@@ -1,0 +1,32 @@
+.about-page {
+    display: flex;
+    flex-direction: column;
+}
+
+#portrait {
+    width: 70%;
+    margin: auto;
+    flex: 1;
+}
+
+.intro, .experience-txt, .languages-txt{
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+}
+
+.experience {
+    background-color: #645E9D;
+    color: #ffffff;
+}
+
+.languages {
+    background-color: #392B58;
+    color: #ffffff;
+}
+
+.languages-txt ul {
+    width: 50%;
+    margin: auto;
+    padding: none;
+}
