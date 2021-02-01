@@ -1,31 +1,13 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
-import me from '../../../images/me.jpg'
+import Header from '../../components/Header/Header'
+import me from '../../images/me.jpg'
 import './AboutPage.css'
 
 export default class AboutPage extends Component {
     render(){
         return(
             <main>
-                <header className='about-header'>
-                    <div className='heading'>
-                        <h1>Alanna Bouloy</h1>
-                    </div>
-                    <nav className='about-nav'>
-                        <ul>
-                            <li className='active'>
-                                <Link to='/about'>
-                                    About
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to='projects'>
-                                    Projects
-                                </Link>
-                            </li>
-                        </ul>
-                    </nav>
-                </header>
+                <Header className='about-header'/>
                 <section className='about-page'>
                     <h2>About Me</h2>
                     <img id='portrait' src={me} alt='me smiling with pink hair while wearing a beanie'/>
