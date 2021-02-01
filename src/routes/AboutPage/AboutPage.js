@@ -7,7 +7,7 @@ import './AboutPage.css'
 export default class AboutPage extends Component {
     render(){
         return(
-            <main>
+            <main className='about'>
                 <Header className='about-header'/>
                 <AboutSection/>
                 <ContactSection/>
