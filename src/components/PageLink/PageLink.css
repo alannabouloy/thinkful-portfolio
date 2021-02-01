@@ -1,0 +1,16 @@
+.proj-nav li {
+    list-style: none;
+    height: 10px;
+    background-color: #D3D3D3;
+    width: 10px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.proj-nav a {
+    padding: 5px;
+}
+
+#current-project {
+    background-color: #7392ac;
+}

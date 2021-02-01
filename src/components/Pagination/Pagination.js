@@ -7,7 +7,7 @@ export default function Pagination(props){
         <div className='pagination'>
             <nav className='proj-nav'>
                 <ul>
-                    {props.projects.map((project, i) =>  <PageLink key={i} index={i} goToProject={props.goToProject}/>)}
+                    {props.projects.map((project, i) =>  <PageLink key={i} currentProject={props.currentProject} index={i} goToProject={props.goToProject}/>)}
                 </ul>
             </nav>
         </div>

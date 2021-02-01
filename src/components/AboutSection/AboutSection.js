@@ -15,11 +15,11 @@ export default function AboutSection(props){
                     I got my start with coffee, and I mean that literally. Before I was a Software
                     Engineer, I was a barista working at a Starbucks in Orlando, FL. Coding was just
                     a hobby I'd picked up after a late night in college with nothing to do but google
-                    online Computer Science courses. But working at Starbucks made me realize that I
+                    "online Computer Science courses". But working at Starbucks made me realize that I
                     wanted the kind of career where I could work with others on fun and interesting projects
                     designed to change the world. That's when I stopped treating coding like a hobby and 
                     enrolled in Thinkful's Software Engineering Immersion Program. Now, I spend most days working
-                    on the types of projects I used to dream about while adding foam to lattes and winding down 
+                    on the types of projects I used to dream about when I was adding foam to lattes, and winding down 
                     with yoga or meeting up for an online DnD session with friends. 
                 </p>
             </div>

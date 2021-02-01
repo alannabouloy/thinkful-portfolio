@@ -20,3 +20,9 @@
 .submit {
     text-align: center;
 }
+
+@media all and (min-width: 600px){
+    .contact-msg {
+        width: 80%;
+    }
+}

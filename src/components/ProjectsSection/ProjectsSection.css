@@ -1,0 +1,15 @@
+.projects-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-intro {
+    width: 70%;
+    margin: auto;
+}
+
+@media all and (min-width: 600px){
+    .projects-intro {
+        text-align: center;
+    }
+}

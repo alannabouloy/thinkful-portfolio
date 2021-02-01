@@ -1,0 +1,18 @@
+.proj-nav ul{
+    display: flex;
+    width: 20%;
+    margin: auto;
+    padding: 0px;
+}
+
+
+
+.pagination {
+    margin: 50px;
+}
+
+@media all and (min-width: 600px){
+    .proj-nav ul {
+        width: 5%;
+    }
+}

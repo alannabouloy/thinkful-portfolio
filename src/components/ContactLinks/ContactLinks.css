@@ -20,3 +20,13 @@
 .contact-links a:visited, .contact-links a:hover {
     color: #645E9D;
 }
+
+@media all and (min-width: 600px){
+    .links{
+        width: 30px;
+    }
+
+    .twitter-link {
+        text-align: center;
+    }
+} 

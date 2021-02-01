@@ -1,0 +1,41 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    background-color:  #645E9D;
+    color: #ffffff;
+    padding: 10px;
+}
+.project img {
+    width: 80%;
+    margin: auto;
+    border: solid #392B58 5px;
+}
+
+.project-desc, .project-stack {
+    width: 70%;
+    margin: auto;
+}
+
+.project-desc a {
+    color: #D3D3D3;
+}
+
+.project-desc a:hover, .project-desc a:visited {
+    color: #392B58;
+}
+
+.project-stack h4 {
+    text-align: center;
+}
+
+.stack-list {
+    width: 20%;
+    margin: auto;
+    padding: 0px;
+}
+
+@media all and (min-width: 600px){
+    .stack-list{
+        width: 5%;
+    }
+}

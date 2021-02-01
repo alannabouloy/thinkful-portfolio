@@ -12,7 +12,7 @@ export default function ProjectsSection(props){
                 <p>Here are some of the projects I'm working on.</p>
             </div>
             <Project currentProject={props.currentProject} stack={props.stack}/>
-            <Pagination projects={props.projects} goToProject={props.goToProject}/>
+            <Pagination currentProject={props.currentProject} projects={props.projects} goToProject={props.goToProject}/>
         </section>
     )
 }

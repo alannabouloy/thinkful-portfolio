@@ -26,7 +26,21 @@
 }
 
 .languages-txt ul {
-    width: 50%;
+    width: 20%;
     margin: auto;
-    padding: none;
+    padding: 0px;
+}
+
+@media all and (min-width:600px){
+    .languages-txt p {
+        text-align: center;
+    }
+
+    .languages-txt ul {
+        width: 5%;
+    }
+
+    #portrait{
+        width: 40%;
+    }
 }

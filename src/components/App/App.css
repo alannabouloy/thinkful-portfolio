@@ -4,4 +4,25 @@
 
 body {
     margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h2, h3, h4 {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+@media all and (min-width: 600px){
+    .group {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .align-left{
+        text-align: left;
+    }
+
+    .item {
+        flex: 1;
+    }
 }
