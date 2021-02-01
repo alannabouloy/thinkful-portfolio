@@ -1,14 +1,9 @@
 import React, { Component } from 'react'
 import Header from '../../components/Header/Header'
-import SectionHeading from '../../components/SectionHeading/SectionHeading'
-import SmallHeading from '../../components/SmallHeading/SmallHeading'
 import scribe from '../../images/scribe-app.png'
 import maestro from '../../images/maestro-app.png'
 import unionize from '../../images/unionize-app.png'
-import { Link } from 'react-router-dom'
 import './ProjectsPage.css'
-import Project from '../../components/Project/Project'
-import Pagination from '../../components/Pagination/Pagination'
 import ProjectsSection from '../../components/ProjectsSection/ProjectsSection'
 
 export default class ProjectsPage extends Component {
