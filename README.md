@@ -2,6 +2,8 @@
 
 This is a repo for my portfolio site.
 
+[Here's a link to the live site.](https://portfolio-three-ruby.vercel.app/)
+
 The site was built using React.js as the main framework, and uses basic CSS for styling. 
 
 ## About Page
