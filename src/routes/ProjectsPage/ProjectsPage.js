@@ -13,21 +13,27 @@ export default class ProjectsPage extends Component {
                 name: 'Scribe DnD Campaign Manager',
                 desc: 'Scribe is a campaign management app for RPG games that helps you to keep track of notes taken during a campaign. You can add new campaigns and update old campaigns with new notes as you play.',
                 img: scribe,
-                link: 'https://scribe-campaign-manager.vercel.app/',
+                appLink: 'https://scribe-campaign-manager.vercel.app/',
+                clientLink: 'https://github.com/alannabouloy/dnd-campaign-manager',
+                apiLink: 'https://github.com/alannabouloy/dnd-cm-server',
                 stack: ['React.js', 'Node.js', 'Express.js', 'PostgreSQL']
             },
             {
                 name: 'Maestro Language Learning App',
                 desc: `Maestro is a language learning application that uses the science of spaced repetition to help users improve their language skills. Users are tested on their knowledge of words and the better they know a word, the less frequently they'll be tested on it.`,
                 img: maestro,
-                link: 'https://maestro-liard.vercel.app/',
+                appLink: 'https://maestro-liard.vercel.app/',
+                clientLink: 'https://github.com/alannabouloy/spaced-repetition',
+                apiLink: 'https://github.com/alannabouloy/spaced-repetition-api',
                 stack: ['React.js', 'Node.js', 'Express.js', 'PostgreSQL']
             },
             {
                 name: 'Unionize',
                 desc: `Unionize helps you to find a union that works for you. You can search through our list of acredited unions, and even filter based on the industry or a specific search term. If you can't find a union that fits, the app also provides a link to resources for starting your own union.`,
                 img: unionize,
-                link: 'https://unionize.vercel.app/', 
+                appLink: 'https://unionize.vercel.app/', 
+                clientLink: 'https://github.com/alannabouloy/unionize-app',
+                apiLink: 'https://github.com/alannabouloy/unionize-server',
                 stack: ['React.js', 'Node.js', 'Express.js', 'PostgreSQL']
             }
         ],

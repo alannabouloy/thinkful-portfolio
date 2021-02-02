@@ -1,8 +1,8 @@
 .projects-nav a, .about-nav a {
     text-decoration: none;
-    color: #392B58;
+    color: #ffffff ;
 }
 
 #active a {
-    color: #ffffff;
+    color:#392B58;
 }

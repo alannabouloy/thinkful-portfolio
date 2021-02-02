@@ -8,7 +8,7 @@
 
 .about-nav li, .projects-nav li {
     list-style: none;
-    background-color: #ffffff;
+    background-color: #392B58;
     margin: -38px 5px 10px 5px;
     padding: 8px 10px 4px 10px;
     border: solid  #392B58 5px;
@@ -17,5 +17,6 @@
 }
 
 #active {
-    background-color: #392B58;
+    background-color: #ffffff ;
+    
 }
